@@ -1,0 +1,25 @@
+.weatherAppWrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 777px;
+}
+
+.container {
+  background-image: linear-gradient(
+    -225deg,
+    #473b7b 0%,
+    #3584a7 51%,
+    #30d2be 100%
+  );
+  border-radius: 11px;
+  padding: 25px;
+  color: #fee8df;
+}
+
+.imgPark {
+  display: block;
+  margin: 0 auto;
+}
+hr {
+  margin: 0;
+}

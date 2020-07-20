@@ -1,0 +1,10 @@
+.openSource {
+  text-align: center;
+  padding: 5px;
+  color: #45437f;
+  margin-bottom: 5px;
+}
+.openSource a {
+  color: #3398ac;
+  cursor: pointer;
+}

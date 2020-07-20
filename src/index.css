@@ -1,0 +1,171 @@
+@media (max-width: 760px) {
+  /* put all rules for less than or equal to 960 pixels here */
+  #iconW {
+    width: 150px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .imgPark {
+    max-width: 211px;
+  }
+
+  .info {
+    font-size: 13px;
+  }
+  .week {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 485px) {
+  /*  all rules for less than or equal to 960 pixels here */
+
+  .weatherAppWrapper {
+    max-width: none;
+    background-image: linear-gradient(
+      -225deg,
+      #473b7b 0%,
+      #3584a7 51%,
+      #30d2be 100%
+    );
+  }
+  .container {
+    border-radius: none;
+  }
+  #iconW {
+    width: 140px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .imgPark {
+    max-width: 190px;
+  }
+
+  .info {
+    font-size: 12px;
+  }
+  .week {
+    font-size: 14px;
+  }
+  .iWF {
+    max-width: 25px;
+  }
+  .openSource {
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    color: #45437f;
+  }
+  .openSource a {
+    color: #fee8df;
+    cursor: pointer;
+  }
+}
+@media (max-width: 395px) {
+  /*  all rules for less than or equal to 960 pixels here */
+
+  .body {
+    max-width: none;
+    background-image: linear-gradient(
+      -225deg,
+      #473b7b 0%,
+      #3584a7 51%,
+      #30d2be 100%
+    );
+  }
+  .container {
+    border-radius: none;
+  }
+  #iconW {
+    width: 125px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  #currentTemp {
+    font-size: 70px;
+  }
+
+  .imgPark {
+    max-width: 150px;
+  }
+
+  .info {
+    font-size: 10px;
+  }
+  .week {
+    font-size: 12px;
+  }
+  .iWF {
+    max-width: 22px;
+  }
+  .openSource {
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    color: #45437f;
+  }
+  .openSource a {
+    color: #fee8df;
+    cursor: pointer;
+  }
+}
+@media (max-width: 350px) {
+  /*  all rules for less than or equal to 960 pixels here */
+
+  .body {
+    max-width: none;
+    background-image: linear-gradient(
+      -225deg,
+      #473b7b 0%,
+      #3584a7 51%,
+      #30d2be 100%
+    );
+  }
+  .container {
+    border-radius: none;
+  }
+  .searchF {
+    padding: 5px;
+    font-size: 11px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  #iconW {
+    width: 110px;
+  }
+  #currentTemp {
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+  }
+
+  .imgPark {
+    max-width: 170px;
+  }
+
+  .info {
+    font-size: 9px;
+  }
+  .week {
+    font-size: 10px;
+  }
+  .iWF {
+    max-width: 18px;
+  }
+  .openSource {
+    text-align: center;
+    padding: 8px;
+    color: #45437f;
+    padding-bottom: 5px;
+  }
+  .openSource a {
+    color: #fee8df;
+    cursor: pointer;
+  }
+}
+
+/* down to 318px */

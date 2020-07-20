@@ -1,0 +1,62 @@
+h1 {
+  margin-top: 11px;
+  font-size: 50px;
+}
+.dislaimer {
+  font-size: 8px;
+  color: #fee8df;
+  position: relative;
+  top: -11px;
+}
+
+#iconW {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+
+  width: 200px;
+}
+.temperature {
+  position: relative;
+  margin-top: 32px;
+  color: #99ddcf;
+}
+.temperature .temp {
+  font-size: 70px;
+}
+.temperature .weatherDescription {
+  font-size: 25px;
+  margin-top: 0;
+}
+.weatherDescription::first-letter {
+  text-transform: capitalize;
+}
+.unit {
+  color: #8dd3c5;
+  font-size: 15px;
+  position: relative;
+  top: -40px;
+  font-weight: bolder;
+}
+a {
+  color: #fee8df;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.active {
+  color: #31cebd;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #31cebd;
+  text-decoration: none;
+}
+a:focus {
+  color: #19cfbd;
+}
+.weatherDescription {
+  font-size: 22px;
+  color: #99ddcf;
+}
